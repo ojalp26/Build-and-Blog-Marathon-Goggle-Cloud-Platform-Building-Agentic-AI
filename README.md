@@ -67,8 +67,7 @@ gcloud run deploy ollama-gemma3-270m-gpu \
 
 ### 2. Deploy the Agent Frontend (CPU)
 We deploy the ADK agent and connect it to the backend using environment variables.
-Get the Backend URL from the previous step
-export OLLAMA_URL=[YOUR_BACKEND_URL]
+
 ```
 gcloud run deploy production-adk-agent \
   --source ./adk-agent \
