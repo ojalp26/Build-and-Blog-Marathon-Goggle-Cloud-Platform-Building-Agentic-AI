@@ -76,7 +76,5 @@ gcloud run deploy production-adk-agent \
   --allow-unauthenticated
 ```
 
----
-
 ### 📄 License
 This project is open-source and available under the MIT License. Created for the Google Cloud Build & Blog Marathon 2025.
